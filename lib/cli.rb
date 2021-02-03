@@ -7,7 +7,8 @@ end
 
 def get_zipcode
     puts "Please enter your zipcode"
-    input = gets.strip
+    # input = gets.strip
+    Api.get_weather_by_zip
 end
 
 
